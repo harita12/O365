@@ -33,6 +33,7 @@ Resources:
     Properties:
       GroupDescription: allow connections from specified CIDR ranges
       SecurityGroupIngress:
+      #It's a different changes
       - IpProtocol: tcp
         FromPort: 80
         ToPort: 80
